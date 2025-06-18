@@ -1,23 +1,20 @@
 # from flask_cors import CORS
 from flask import Flask,render_template,request,redirect
 import pickle
-import sklearn
-import joblib
+
+
 import groq
 from groq import Groq
 import os
 import json
 import requests
 import re
-import cv2
-from tensorflow.keras.models import load_model
+
 import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.pyplot import imshow,imread
-import firebase_admin
-from firebase_admin import credentials
-from firebase_admin import firestore
-from google.cloud.firestore_v1.base_query import FieldFilter
+
+
+
+
 import pyttsx3
 
 
